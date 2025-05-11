@@ -1,0 +1,185 @@
+[debug] [2025-05-10T15:47:46.626Z] ----------------------------------------------------------------------
+[debug] [2025-05-10T15:47:46.627Z] Command:       /home/chay/.nvm/versions/node/v22.14.0/bin/node /home/chay/.nvm/versions/node/v22.14.0/bin/firebase login
+[debug] [2025-05-10T15:47:46.627Z] CLI Version:   14.3.1
+[debug] [2025-05-10T15:47:46.627Z] Platform:      linux
+[debug] [2025-05-10T15:47:46.627Z] Node Version:  v22.14.0
+[debug] [2025-05-10T15:47:46.628Z] Time:          Sat May 10 2025 21:17:46 GMT+0530 (India Standard Time)
+[debug] [2025-05-10T15:47:46.628Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=608727387&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-05-10T15:48:16.340Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2025-05-10T15:48:16.340Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2025-05-10T15:48:16.689Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2025-05-10T15:48:16.689Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] ✔  Success! Logged in as radhakrishnachaitu@gmail.com 
+[debug] [2025-05-10T15:48:26.740Z] Error: Timed out.
+    at Timeout._onTimeout (/home/chay/.nvm/versions/node/v22.14.0/lib/node_modules/firebase-tools/lib/utils.js:270:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-10T15:51:29.071Z] ----------------------------------------------------------------------
+[debug] [2025-05-10T15:51:29.073Z] Command:       /home/chay/.nvm/versions/node/v22.14.0/bin/node /home/chay/.nvm/versions/node/v22.14.0/bin/firebase login
+[debug] [2025-05-10T15:51:29.073Z] CLI Version:   14.3.1
+[debug] [2025-05-10T15:51:29.073Z] Platform:      linux
+[debug] [2025-05-10T15:51:29.073Z] Node Version:  v22.14.0
+[debug] [2025-05-10T15:51:29.073Z] Time:          Sat May 10 2025 21:21:29 GMT+0530 (India Standard Time)
+[debug] [2025-05-10T15:51:29.073Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as radhakrishnachaitu@gmail.com
+[debug] [2025-05-10T15:51:39.102Z] Error: Timed out.
+    at Timeout._onTimeout (/home/chay/.nvm/versions/node/v22.14.0/lib/node_modules/firebase-tools/lib/utils.js:270:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-10T15:51:50.538Z] ----------------------------------------------------------------------
+[debug] [2025-05-10T15:51:50.540Z] Command:       /home/chay/.nvm/versions/node/v22.14.0/bin/node /home/chay/.nvm/versions/node/v22.14.0/bin/firebase init
+[debug] [2025-05-10T15:51:50.540Z] CLI Version:   14.3.1
+[debug] [2025-05-10T15:51:50.540Z] Platform:      linux
+[debug] [2025-05-10T15:51:50.540Z] Node Version:  v22.14.0
+[debug] [2025-05-10T15:51:50.540Z] Time:          Sat May 10 2025 21:21:50 GMT+0530 (India Standard Time)
+[debug] [2025-05-10T15:51:50.540Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-10T15:51:50.542Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-10T15:51:50.543Z] > authorizing via signed-in user (radhakrishnachaitu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/chay/FSAD/reddit-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-05-10T15:52:04.916Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:52:04.916Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:52:04.917Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-05-10T15:52:34.942Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): AbortError: The user aborted a request.
+[debug] [2025-05-10T15:52:34.943Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2025-05-10T15:52:39.949Z] Error: Timed out.
+    at Timeout._onTimeout (/home/chay/.nvm/versions/node/v22.14.0/lib/node_modules/firebase-tools/lib/utils.js:270:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-10T15:56:10.611Z] ----------------------------------------------------------------------
+[debug] [2025-05-10T15:56:10.612Z] Command:       /home/chay/.nvm/versions/node/v22.14.0/bin/node /home/chay/.nvm/versions/node/v22.14.0/bin/firebase deploy
+[debug] [2025-05-10T15:56:10.612Z] CLI Version:   14.3.1
+[debug] [2025-05-10T15:56:10.613Z] Platform:      linux
+[debug] [2025-05-10T15:56:10.613Z] Node Version:  v22.14.0
+[debug] [2025-05-10T15:56:10.613Z] Time:          Sat May 10 2025 21:26:10 GMT+0530 (India Standard Time)
+[debug] [2025-05-10T15:56:10.613Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-10T15:56:10.724Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-10T15:56:10.724Z] > authorizing via signed-in user (radhakrishnachaitu@gmail.com)
+[debug] [2025-05-10T15:56:10.724Z] [iam] checking project reddit-clone-23782 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-05-10T15:56:10.725Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:10.725Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:10.725Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions [none]
+[debug] [2025-05-10T15:56:10.725Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions x-goog-quota-user=projects/reddit-clone-23782
+[debug] [2025-05-10T15:56:10.725Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-05-10T15:56:26.265Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions 200
+[debug] [2025-05-10T15:56:26.265Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions {}
+[debug] [2025-05-10T15:56:26.265Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project reddit-clone-23782:
+
+  cloudfunctions.functions.create
+  cloudfunctions.functions.delete
+  cloudfunctions.functions.get
+  cloudfunctions.functions.list
+  cloudfunctions.functions.update
+  cloudfunctions.operations.get
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2025-05-10T15:56:26.266Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:26.266Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:26.266Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-05-10T15:56:26.266Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-05-10T15:56:33.945Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-05-10T15:56:33.945Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions {}
+[debug] [2025-05-10T15:56:38.947Z] Error: Timed out.
+    at Timeout._onTimeout (/home/chay/.nvm/versions/node/v22.14.0/lib/node_modules/firebase-tools/lib/utils.js:270:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-10T15:56:49.307Z] ----------------------------------------------------------------------
+[debug] [2025-05-10T15:56:49.308Z] Command:       /home/chay/.nvm/versions/node/v22.14.0/bin/node /home/chay/.nvm/versions/node/v22.14.0/bin/firebase deploy --only hosting
+[debug] [2025-05-10T15:56:49.309Z] CLI Version:   14.3.1
+[debug] [2025-05-10T15:56:49.309Z] Platform:      linux
+[debug] [2025-05-10T15:56:49.309Z] Node Version:  v22.14.0
+[debug] [2025-05-10T15:56:49.309Z] Time:          Sat May 10 2025 21:26:49 GMT+0530 (India Standard Time)
+[debug] [2025-05-10T15:56:49.309Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-10T15:56:49.411Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-10T15:56:49.412Z] > authorizing via signed-in user (radhakrishnachaitu@gmail.com)
+[debug] [2025-05-10T15:56:49.412Z] [iam] checking project reddit-clone-23782 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-05-10T15:56:49.412Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:49.413Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:49.413Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions [none]
+[debug] [2025-05-10T15:56:49.413Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions x-goog-quota-user=projects/reddit-clone-23782
+[debug] [2025-05-10T15:56:49.413Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-05-10T15:56:50.448Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions 200
+[debug] [2025-05-10T15:56:50.448Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions {}
+[debug] [2025-05-10T15:56:50.448Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project reddit-clone-23782:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2025-05-10T15:56:50.448Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:50.448Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:56:50.449Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reddit-clone-23782 [none]
+[debug] [2025-05-10T15:57:00.704Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/reddit-clone-23782, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/reddit-clone-23782 failed, reason: getaddrinfo EAI_AGAIN firebase.googleapis.com
+[debug] [2025-05-10T15:57:00.704Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/reddit-clone-23782 (original: request to https://firebase.googleapis.com/v1beta1/projects/reddit-clone-23782 failed, reason: getaddrinfo EAI_AGAIN firebase.googleapis.com)
+[debug] [2025-05-10T15:57:05.711Z] Error: Timed out.
+    at Timeout._onTimeout (/home/chay/.nvm/versions/node/v22.14.0/lib/node_modules/firebase-tools/lib/utils.js:270:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-10T15:57:31.366Z] ----------------------------------------------------------------------
+[debug] [2025-05-10T15:57:31.367Z] Command:       /home/chay/.nvm/versions/node/v22.14.0/bin/node /home/chay/.nvm/versions/node/v22.14.0/bin/firebase deploy --only functions
+[debug] [2025-05-10T15:57:31.368Z] CLI Version:   14.3.1
+[debug] [2025-05-10T15:57:31.368Z] Platform:      linux
+[debug] [2025-05-10T15:57:31.368Z] Node Version:  v22.14.0
+[debug] [2025-05-10T15:57:31.368Z] Time:          Sat May 10 2025 21:27:31 GMT+0530 (India Standard Time)
+[debug] [2025-05-10T15:57:31.368Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-10T15:57:31.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-10T15:57:31.470Z] > authorizing via signed-in user (radhakrishnachaitu@gmail.com)
+[debug] [2025-05-10T15:57:31.470Z] [iam] checking project reddit-clone-23782 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2025-05-10T15:57:31.471Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:57:31.471Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:57:31.471Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions [none]
+[debug] [2025-05-10T15:57:31.471Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions x-goog-quota-user=projects/reddit-clone-23782
+[debug] [2025-05-10T15:57:31.471Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-05-10T15:58:01.527Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions, {"headers":{},"method":"POST","body":"{\"permissions\":[\"cloudfunctions.functions.create\",\"cloudfunctions.functions.delete\",\"cloudfunctions.functions.get\",\"cloudfunctions.functions.list\",\"cloudfunctions.functions.update\",\"cloudfunctions.operations.get\",\"firebase.projects.get\"]}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions failed, reason: getaddrinfo EAI_AGAIN cloudresourcemanager.googleapis.com
+[debug] [2025-05-10T15:58:01.527Z] [iam] error while checking permissions, command may fail: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/reddit-clone-23782:testIamPermissions
+[debug] [2025-05-10T15:58:01.527Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:58:01.527Z] Checked if tokens are valid: true, expires at: 1746895695689
+[debug] [2025-05-10T15:58:01.527Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-05-10T15:58:01.527Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-05-10T15:58:03.466Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-05-10T15:58:03.466Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/reddit-clone-23782/serviceAccounts/reddit-clone-23782@appspot.gserviceaccount.com:testIamPermissions {}
+[debug] [2025-05-10T15:58:08.468Z] Error: Timed out.
+    at Timeout._onTimeout (/home/chay/.nvm/versions/node/v22.14.0/lib/node_modules/firebase-tools/lib/utils.js:270:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
